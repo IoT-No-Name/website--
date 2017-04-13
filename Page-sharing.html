@@ -13,8 +13,8 @@
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/style-sharing.css">
-    <link rel="shortcut icon" href="assets/ico/favicon.png">
+    <link rel="stylesheet" href="css/style-sharing.css"><link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
 </head>
 
 
@@ -28,27 +28,21 @@
                 <div class="input-group">
                     <input type="text" class="form-control" aria-label="...">
                     <div class="input-group-btn">
-                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Action <span class="caret"></span></button>
+                        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select currectly<span class="caret"></span></button>
                         <ul class="dropdown-menu dropdown-menu-right">
                             <li>UAH</li>
                             <li>RUB</li>
                             <li>USD</li>
                         </ul>
                     </div>
-                    <!-- /btn-group -->
                 </div>
+                <label for="check-one">
+                  <input type="checkbox" name="check-one" id="check-one" value="checkone"/>
+                  <i></i> <span>Ready</span>
+                </label>
 
-
-
-                <div class="col-sm-3">
-  <input type="checkbox" data-group-cls="btn-group-justified">
-</div>
             </div>
         </div>
-
-
-
-
 
 
         <div class="col-md-6">
@@ -56,7 +50,6 @@
                 <div class="freelancer-text">
                     <h1>Freelancer</h1>
                 </div>
-                <h4>Input Groups</h4>
                 <div class="input-group">
                     <label class="input-group-btn">
                     <span class="btn btn-primary">
@@ -66,12 +59,26 @@
                     <input type="text" class="form-control" readonly>
                 </div>
                 <span class="help-block">
-                Try selecting one or more files and watch the feedback
-            </span>
-            </div>
+                </span>
 
+                <label for="check-two">
+                  <input type="checkbox" name="check-two" id="check-two" value="check-two"/>
+                  <i></i> <span>Ready</span>
+                </label>
+            </div>
         </div>
     </div>
-</body>
+    <div class="btn-share">
+      <button type="button" class="btn btn-primary btn-lg btn-block">SHARE</button>
+    </div>
+
+    <div class="footer-border"></div>
+      <p>Made by Students at
+        <a href="http://iot.lviv.ua" target="_blank">
+          <strong>IOT</strong>
+        </a> having a lot of fun.
+        <i class="fa fa-smile-o"></i>
+      </p>
+  </body>
 
 </html>
